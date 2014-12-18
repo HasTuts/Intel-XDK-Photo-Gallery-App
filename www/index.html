@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Photo Gallery by HasTuts</title>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+
+<!--
+  * The "meta viewport" tag (below) helps your app size appropriately to a device's screen.
+  * Note that the meta viewport approach is being phased out in favor of the @viewport CSS rule.
+  * For a quick overview of both, see this article:
+  *   http://webdesign.tutsplus.com/tutorials/htmlcss-tutorials/quick-tip-dont-forget-the-viewport-meta-tag
+  * To see what happens, try the app on a real device with and without a "meta viewport" tag.
+-->
+
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes, minimum-scale=1, maximum-scale=2"> -->
+
+    <style>
+    /* following three (cascaded) are equivalent to above three meta viewport statements */
+    /* see http://www.quirksmode.org/blog/archives/2014/05/html5_dev_conf.html */
+    /* see http://dev.w3.org/csswg/css-device-adapt/ */
+        @-ms-viewport { width: 100vw ; zoom: 100% ; }                           @viewport { width: 100vw ; zoom: 100% ; }
+        @-ms-viewport { user-zoom: fixed ; }                                    @viewport { user-zoom: fixed ; }
+        /*@-ms-viewport { user-zoom: zoom ; min-zoom: 100% ; max-zoom: 200% ; }   @viewport { user-zoom: zoom ; min-zoom: 100% ; max-zoom: 200% ; }*/
+    </style>
+
+	<!-- for Gallery  -->
+	<link rel="stylesheet" href="gallery/css/idangerous.swiper.css">
+	<link rel="stylesheet" href="gallery/css/normalize.css">
+	<link rel="stylesheet" href="gallery/css/gallery-app.css">
+	
+	<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+  	<div class="header-title">Photo Gallery by HasTuts</div>	  
+	
+	<div class="swiper-container">
+		
+		<div class="pagination"></div>
+		<div class="swiper-wrapper">
+			<div class="swiper-slide">
+				<div class="inner">
+					<img src="gallery/img/1.jpg" alt="">
+				</div>
+			</div>
+			<div class="swiper-slide">
+				<div class="inner">
+					<img src="gallery/img/2.jpg" alt="">
+				</div>
+			</div>
+			<div class="swiper-slide">
+				<div class="inner">
+					<img src="gallery/img/3.jpg" alt="">
+				</div>
+			</div>
+			<div class="swiper-slide">
+				<div class="inner">
+					<img src="gallery/img/4.jpg" alt="">
+				</div>
+			</div>
+			<div class="swiper-slide">
+				<div class="inner">
+					<img src="gallery/img/5.jpg" alt="">
+				</div>
+			</div>
+			<div class="swiper-slide">
+				<div class="inner">
+					<img src="gallery/img/6.jpg" alt="">
+				</div>
+			</div>
+			<div class="swiper-slide">
+				<div class="inner">
+					<img src="gallery/img/7.jpg" alt="">
+				</div>
+			</div>
+			<div class="swiper-slide">
+				<div class="inner">
+					<img src="gallery/img/8.jpg" alt="">
+				</div>
+			</div>
+			<div class="swiper-slide">
+				<div class="inner">
+					<img src="gallery/img/9.jpg" alt="">
+				</div>
+			</div>
+			<div class="swiper-slide">
+				<div class="inner">
+					<img src="gallery/img/10.jpg" alt="">
+				</div>
+			</div>
+            <div class="swiper-slide">
+				<div class="inner">
+					<img src="gallery/img/11.jpg" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<script src="gallery/js/jquery.min.js"></script>
+	<!-- Don't forget to get the latest Swiper and scrollbar version here-->
+	<script src="gallery/js/idangerous.swiper-2.0.min.js"></script>
+	<script src="gallery/js/gallery-app.js"></script>
+	
+	<script src="intelxdk.js"></script>         <!-- phantom library, needed for XDK api calls -->
+    <script src="cordova.js"></script>          <!-- phantom library, needed for Cordova api calls -->
+    <script src="xhr.js"></script>              <!-- phantom library, needed for XDK CORS -->
+
+    <script src="js/app.js"></script>           <!-- for your event code, see README and file comments for details -->
+    <script src="js/init-app.js"></script>      <!-- for your init code, see README and file comments for details -->
+    <script src="xdk/init-dev.js"></script>     <!-- normalizes device and document ready events, see README for details -->
+
+</body>
+</html>

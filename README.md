@@ -10,7 +10,7 @@ The purpose of this app is to provide a basic starting point for HTML5 developer
 
 
 ###Tutorials
-For more details go to [hastuts.com](http://hastuts.com/intel-xdk-tutorials)
+For more details go to [hastuts.com](http://hastuts.com/intel-xdk-all-tutorials/)
 
 ###License
 

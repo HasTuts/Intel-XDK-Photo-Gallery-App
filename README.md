@@ -9,9 +9,6 @@ Intel XDK Photo Gallery App
 The purpose of this app is to provide a basic starting point for HTML5 developers just getting started using the Intel XDK to create mobile hybrid apps.
 
 
-###Tutorials
-For more details go to [hastuts.com](http://hastuts.com/intel-xdk-all-tutorials/)
-
 ###License
 
 This is licensed under the GPLv3 (http://www.gnu.org/licenses/gpl.html).

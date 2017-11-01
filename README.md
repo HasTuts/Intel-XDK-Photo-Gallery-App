@@ -1,8 +1,6 @@
 Intel XDK Photo Gallery App
 ===========================
 
-![Intel-XDK-Tutorials.png](http://hastuts.com/wp-content/uploads/2015/01/Intel-XDK-Tutorials.png)
-
 
 **Photo Gallery App** is a simple app that shows the basics of making an app using **Intel XDK**.
 

@@ -1,5 +1,11 @@
 Photo Gallery App
-=================
+-----------------
 
+Photo Gallery App is a simple photo display application where users can select photo by swiping left to right.
 
-**Photo Gallery App** is a simple app that shows the basics of making an app using **HTML, CSS & JavaScript**.
+### Development
+This application is built using
+
+- HTML
+- CSS
+- JavaScript
